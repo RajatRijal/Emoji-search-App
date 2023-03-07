@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ .app-root{
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+ }
+ .input-search{
+  width: 40%;
+  height: auto;
+  border-color: none;
+  text-decoration: solid;
+ }
+ .search-btn{
+  background-color: aqua;
+  color: red;
+  padding: 10px;
+ }
+ 
