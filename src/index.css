@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: bisque;
 }
 
 code {
@@ -17,14 +18,32 @@ code {
   padding: 20px;
  }
  .input-search{
+  background-color: antiquewhite;
+  text-align: center;
   width: 40%;
   height: auto;
-  border-color: none;
+  border-color: black;
   text-decoration: solid;
+  border-right: none;
+
  }
- .search-btn{
-  background-color: aqua;
-  color: red;
-  padding: 10px;
+ #search-btn{
+  text-align: center;
+  font-weight: bold;
+  background-color: antiquewhite;
+  border-color: black;
  }
- 
+ #search-btn:hover{
+  font-weight: bolder;
+  font-size: large;
+ }
+ .input-wrapper{
+  width: 100%;
+  height:40%;
+ }
+ .result-item{
+  padding-top: 30px;
+ }
+ .result-item{
+  margin-bottom: 20px;
+ }

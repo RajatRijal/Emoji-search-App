@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import appbasejs from 'appbase-js';
 import './index.css';
+import "./App.css";
 import ResultsRenderer from './components/ResultsRenderer';
 
 var appbaseRef = appbasejs({
@@ -40,11 +41,13 @@ const App=()=> {
       });
   };
   return(
+
     <div className='app-root'>
+    <h2>Welcome to Emoji Shop!!</h2>
       <div className='input-wrapper'>
         <input className='input-search'
         name='search-field'
-        type="text"
+        type="search"
         onChange={(e)=> setSearchText(e.target.value)}
         value={searchText}
         placeholder="search emoji"
