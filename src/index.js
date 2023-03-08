@@ -8,9 +8,9 @@ import "./App.css";
 import ResultsRenderer from './components/ResultsRenderer';
 
 var appbaseRef = appbasejs({
-  url: "https://appbase-demo-ansible-abxiydt-arc.searchbase.io",
+  url: process.env.REACT_APP_API_URL,
   app: "emoji-dataset",
-  credentials: "f1da7b624918:3331c67d-3477-4b24-aa89-aefc6ca4683e"
+  credentials: process.env.REACT_APP_API_KEY
 });
 const App=()=> {
   const [searchText, setSearchText]= useState("");
