@@ -17,6 +17,7 @@ const ResultsRenderer = ({ results = [] }) => {
         </span>
       );
     }
+    console.log(results);
     return results.map((resultItem) => {
       return <ResultItem key={resultItem._id} item={resultItem} />;
     });

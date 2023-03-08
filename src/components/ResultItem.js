@@ -8,7 +8,13 @@ const ResultItem = ({
 }) => {
   return (
     <div className="result-item">
-      <div className="result-emoji" id="emoji-wrapper" role="img" aria-label={label}> {emoji}<br></br> 
+      <div 
+        className="result-emoji" 
+        id="emoji-wrapper" 
+        role="img" 
+        aria-label={label}
+        >
+         {emoji}<br></br> 
       {label} </div>
 
     </div>
