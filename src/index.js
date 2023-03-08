@@ -49,6 +49,7 @@ const App=()=> {
         name='search-field'
         type="search"
         onChange={(e)=> setSearchText(e.target.value)}
+        onKeyDown={(e) => e.code == 'Enter' && makeApiCall()}
         value={searchText}
         placeholder="search emoji"
         />
