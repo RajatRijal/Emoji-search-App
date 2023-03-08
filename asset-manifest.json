@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Emoji-search-App/static/css/main.75abb52c.css",
+    "main.js": "/Emoji-search-App/static/js/main.de8e146a.js",
+    "static/js/787.93e9884c.chunk.js": "/Emoji-search-App/static/js/787.93e9884c.chunk.js",
+    "index.html": "/Emoji-search-App/index.html",
+    "main.75abb52c.css.map": "/Emoji-search-App/static/css/main.75abb52c.css.map",
+    "main.de8e146a.js.map": "/Emoji-search-App/static/js/main.de8e146a.js.map",
+    "787.93e9884c.chunk.js.map": "/Emoji-search-App/static/js/787.93e9884c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75abb52c.css",
+    "static/js/main.de8e146a.js"
+  ]
+}
